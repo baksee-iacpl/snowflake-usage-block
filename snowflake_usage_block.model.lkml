@@ -1,4 +1,4 @@
-connection: "account_usage"
+connection: "sf_db"
 
 # include all the views
 include: "*.view"

@@ -1,7 +1,7 @@
 connection: "sf_db"
 
 # include all the views
-#include: "*.view"
+include: "*.view"
 
 datagroup: snowflake_usage_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
