@@ -70,7 +70,7 @@ explore: warehouse_metering_history {}
 #
 # explore: table_constraints {}
 #
-# explore: table_storage_metrics {}
+ explore: table_storage_metrics {}
 #
 # explore: tables {}
 #
