@@ -165,4 +165,14 @@ view: table_storage_metrics {
     type: count
     drill_fields: [table_name]
   }
+
+  measure: active_tb {
+    type: average
+    sql: ${active_bytes} / power(1024,4);;
+  }
+
+  measure: failsafe_tb {
+    type: average
+    sql: ${failsafe_bytes} / power(1024,4);;
+  }
 }
