@@ -479,7 +479,7 @@
     x_axis_reversed: false
     y_axis_reversed: false
     plot_size_by_field: false
-    trellis: pivot
+    trellis: ''
     stacking: normal
     limit_displayed_rows: false
     legend_position: center
