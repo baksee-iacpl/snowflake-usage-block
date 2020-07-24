@@ -451,7 +451,7 @@
     name: Credits Used Over Time by Warehouse (MTD)
     model: snowflake_usage_block
     explore: warehouse_metering_history
-    type: looker_column
+    type: looker_area
     fields: [warehouse_metering_history.warehouse_name, warehouse_metering_history.total_credits_used,
       warehouse_metering_history.start_date]
     pivots: [warehouse_metering_history.warehouse_name]
@@ -480,11 +480,11 @@
     y_axis_reversed: false
     plot_size_by_field: false
     trellis: pivot
-    stacking: ''
+    stacking: normal
     limit_displayed_rows: false
     legend_position: center
     series_types: {}
-    point_style: circle
+    point_style: none
     show_value_labels: false
     label_density: 25
     x_axis_scale: auto
